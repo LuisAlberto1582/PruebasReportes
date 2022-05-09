@@ -1,0 +1,211 @@
+﻿/*RZ.20130301 Se agregan estilos para Cartas Custodia Nextel*/
+
+/*#766A62 gris obscuro letras
+#ECEEE7 gris claro trasfondos
+#E05206 naranja
+#fece2f naranja claro
+#d06105 naranja obscuro en OrangeNextel
+*/
+
+body
+{
+    font-family : Arial;
+    font-size: 10pt;   
+}
+
+/*Modal Pop Up*/
+.modalBackground {
+	background-color:Black;
+	
+}
+.modalPopup {
+	/*background-color:#ECEEE7;*/
+	background-color:#FFFFFF;
+	border-width:3px;
+	border-style:solid;
+	border-color:black;
+	padding-top:10px;
+	padding-left:10px;
+	width:600px;
+	height:300px;
+}
+
+/*Header para secciones de Cartas Custodias*/
+.headerCCustodia 
+{
+	/*20151007 NZ Cambio de colores */ 
+	border: 1px solid #4297D7;
+    background: #5C9CCC url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    color: #FFFFFF;
+    font-weight: bold;	
+}
+
+/*Cuando se hace over sobre el panel*/
+/*
+.headerCCustodia:hover{
+    background:#fece2f;
+    color:#381f00;
+ } 
+*/
+
+/*GridViews de inventario, codigos y extensiones*/
+/*Definimos el CSS para todas las GridView con la Clase GridView*/
+table.GridView {
+	font-family:Verdana; 
+	font-size:11px;
+	color:#444;
+	border:1px solid #000;
+	} 
+
+/*Header de gridview*/
+
+table.GridView tr th
+{
+	border-collapse:separate;
+	vertical-align:middle;	
+	padding:4px;  
+    font-size:12px;
+    text-align:center;  
+   
+    /*20151007 NZ Cambio de colores */
+    border: 1px solid #c5dbec;
+	background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #2E6E9E;
+}
+
+ /*Aplicamos CSS para cada celda del GridView*/    
+table.GridView tr td{ 
+    height:20px;
+    vertical-align:middle;
+    line-height:20px;
+    padding-left:6px;
+    padding-right:6px;  
+    /*20151007 NZ Cambio de colores */   
+    color: Black;   
+  }
+  
+  /*20151007 NZ Cambio de colores */   
+  table.GridView tr td a
+  {
+  	font-weight:bold;   
+  }
+  
+  
+ /*Clases para obtener el efecto Zebra en la GridView*/
+/*Es Necesario agregar la propiedad "RowStyle" y "AlternatingRowStyle" a la GridView despues de Columns */
+/*RowStyle CssClass="GridRowOdd" */
+/*AlternatingRowStyle CssClass="GridRowEven" */
+           
+ /*20151007 NZ Cambio de colores */
+.GridRowOdd{background-color:#F1F4F8;} 
+.GridRowEven{background-color:White;}
+
+ /*Aplicamos este CSS para cada fila cuando el mouse esta encima de la fila*/
+ table.GridView tr:hover
+ {
+ 	/*20151007 NZ Cambio de colores */
+    background:#CADBE9; /*#ccc; */
+    color: Black; /*#381f00;*/    
+ } 
+
+
+/*Este CSS se aplica cuando se ha selccionado un fila del GridView*/
+/*Es Necesario agregar la propiedad "SelectedRowStyle" despues de Columns*/
+/*SelectedRowStyle CssClass="GridRowSelected"*/
+/*
+.GridRowSelected{
+    background-color:White;
+    color:#381f00;
+}
+*/
+
+/*AutoComplete flyout */
+.completionList {
+border:solid 1px #444444;
+margin:0px;
+padding:2px;
+height: 100px;
+overflow:auto;
+background-color: #FFFFFF;
+}
+
+.listItem {
+color: #1C1C1C;
+}
+
+.itemHighlighted {
+background-color: #fac754;
+}
+
+.CompletionListCssClass
+{
+    font-size: 11px;
+    color: Black;
+    padding: 3px 5px;
+    border: 1px solid #999;
+    background: #fece2f;
+    width: 300px;
+    float: left;
+    z-index: 1;
+    position:absolute;
+    margin-left:0px;
+}
+
+/*Titulo de Carta Custodia Servicios de voz*/
+.titleCCustodia 
+{
+	font-size:large;
+	font-weight:bold;
+	/*20151007 NZ Cambio de colores */
+	color:#2E6E9E;
+}
+
+
+/*Titulo de secciones en cartas custodia
+style="cursor:pointer"
+*/
+.titleSeccionCCustodia
+{
+	color: #FFFFFF;
+	font-weight:bold;
+	cursor:pointer;	
+}
+
+/*Cuando se hace over sobre label*/
+/*
+.titleSeccionCCustodia:hover{
+    color:Black;
+	font-weight:bold;
+ } 
+*/
+
+ .tableInv 
+ {
+     border-spacing: 10px 0;
+ }
+ 
+ /* NZ 20151008 Cambio de colores : Este estilo solo aplica para este proyecto. */
+.botonesBusqExtCCust, input[type="submit"]
+{
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    /* NZ 20151008 Cambio de colores */
+    /*background-color: #d66000;*/
+    background-color: #2E6E9E;
+}

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{597C4444-19D0-417F-AA7A-48A947CDEFB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSOControls2008</RootNamespace>
+    <AssemblyName>DSOControls2008</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DSOAutocomplete.cs" />
+    <Compile Include="DSOChart.cs" />
+    <Compile Include="DSOCheckBox.cs" />
+    <Compile Include="DSOCheckBoxList.cs" />
+    <Compile Include="DSOControl.cs" />
+    <Compile Include="DSOControlDB.cs" />
+    <Compile Include="DSODateTimeBox.cs" />
+    <Compile Include="DSODropDownList.cs" />
+    <Compile Include="DSOExpandable.cs" />
+    <Compile Include="DSOFileLinkHandler.cs" />
+    <Compile Include="DSOFlags.cs" />
+    <Compile Include="DSOGrid.cs" />
+    <Compile Include="DSOListBox.cs" />
+    <Compile Include="DSONumberEdit.cs" />
+    <Compile Include="DSORadioButtonList.cs" />
+    <Compile Include="DSOTabs.cs" />
+    <Compile Include="DSOTextBox.cs" />
+    <Compile Include="DSOUpload.cs" />
+    <Compile Include="DSOWindow.cs" />
+    <Compile Include="IDSOFillable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeytiaServiceBL\KeytiaServiceBL.csproj">
+      <Project>{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}</Project>
+      <Name>KeytiaServiceBL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\jquery.js" />
+    <EmbeddedResource Include="scripts\min\jquery.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\calendar.gif" />
+    <EmbeddedResource Include="scripts\jquery-ui.custom.js" />
+    <EmbeddedResource Include="scripts\internationalization\jquery.ui.datepicker-de.js" />
+    <EmbeddedResource Include="scripts\internationalization\jquery.ui.datepicker-es.js" />
+    <EmbeddedResource Include="scripts\internationalization\jquery.ui.datepicker-fr.js" />
+    <EmbeddedResource Include="scripts\internationalization\jquery.ui.datepicker-pt-BR.js" />
+    <EmbeddedResource Include="scripts\jquery.ui.timepicker.addon.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\min\jquery-ui.custom.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\min\jquery.ui.timepicker.addon.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\autoNumeric.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\lib\jargs-1.0.jar" />
+    <None Include="lib\lib\rhino-1.6R7.jar" />
+    <None Include="lib\yuicompressor-2.4.2.jar" />
+    <EmbeddedResource Include="scripts\min\autoNumeric.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\jquery.windows-engine.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\jquery.ui.expandable.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\tacha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\min\jquery.alerts.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\jquery.alerts.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\ColReorder.js" />
+    <EmbeddedResource Include="scripts\jquery.dataTables.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="scripts\json2.js" />
+    <EmbeddedResource Include="scripts\DSOControlsV1.js" />
+    <EmbeddedResource Include="scripts\min\ColReorder.min.js" />
+    <EmbeddedResource Include="scripts\min\DSOControlsV1.min.js" />
+    <EmbeddedResource Include="scripts\min\jquery.dataTables.min.js" />
+    <EmbeddedResource Include="scripts\min\jquery.ui.expandable.min.js" />
+    <EmbeddedResource Include="scripts\min\jquery.windows-engine.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>ECHO Minimizar archivos js
+attrib "$(ProjectDir)scripts\min\DSOControls.min.js" -r
+java -jar "$(ProjectDir)lib\yuicompressor-2.4.2.jar" --type js --nomunge --preserve-semi --charset utf-8 "$(ProjectDir)scripts\DSOControls.js" -o "$(ProjectDir)scripts\min\DSOControls.min.js"
+attrib "$(ProjectDir)scripts\min\DSOControls.min.js" +r
+</PreBuildEvent>
+  </PropertyGroup>
+</Project>

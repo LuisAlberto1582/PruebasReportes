@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSOControls2008", "DSOControls2008\DSOControls2008.csproj", "{597C4444-19D0-417F-AA7A-48A947CDEFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppExtNextel", "AppExtNextel\AppExtNextel.csproj", "{5E402AA4-5F92-427B-8307-C107536F662A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCustodiaDTIExt", "CCustodiaDTIExt\CCustodiaDTIExt.csproj", "{C552C2E2-FD5A-4A64-85A0-B39D13DBBA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeytiaService", "KeytiaService\KeytiaService.csproj", "{35C8C378-AF05-4AB0-9902-0551011D364C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeytiaServiceBL", "KeytiaServiceBL\KeytiaServiceBL.csproj", "{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeytiaUtil", "KeytiaUtil\KeytiaUtil.csproj", "{F8D409A8-4D91-489E-BD81-1F9B39A62CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeytiaUtilLib", "KeytiaUtilLib\KeytiaUtilLib.csproj", "{022308C9-F89D-4DA0-9820-2E81BAFA5592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeYouOnService", "SeeYouOnService\SeeYouOnService.csproj", "{518BB5C6-BCDA-4042-BC8D-2A62FE3602B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeYouOnServiceBL", "SeeYouOnServiceBL\SeeYouOnServiceBL.csproj", "{BA730878-52CB-45FC-B262-60E4171CEFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeytiaWeb", "KeytiaWeb\KeytiaWeb.csproj", "{3DC76586-8052-42B1-8399-82EC7DDA6A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeytiaServiceTester", "KeytiaServiceTester\KeytiaServiceTester.csproj", "{A1880838-C7DE-4F09-88FC-9C8D6B7BC6FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597C4444-19D0-417F-AA7A-48A947CDEFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597C4444-19D0-417F-AA7A-48A947CDEFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597C4444-19D0-417F-AA7A-48A947CDEFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597C4444-19D0-417F-AA7A-48A947CDEFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E402AA4-5F92-427B-8307-C107536F662A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E402AA4-5F92-427B-8307-C107536F662A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E402AA4-5F92-427B-8307-C107536F662A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E402AA4-5F92-427B-8307-C107536F662A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C552C2E2-FD5A-4A64-85A0-B39D13DBBA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C552C2E2-FD5A-4A64-85A0-B39D13DBBA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C552C2E2-FD5A-4A64-85A0-B39D13DBBA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C552C2E2-FD5A-4A64-85A0-B39D13DBBA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C8C378-AF05-4AB0-9902-0551011D364C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C8C378-AF05-4AB0-9902-0551011D364C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C8C378-AF05-4AB0-9902-0551011D364C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C8C378-AF05-4AB0-9902-0551011D364C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D409A8-4D91-489E-BD81-1F9B39A62CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D409A8-4D91-489E-BD81-1F9B39A62CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D409A8-4D91-489E-BD81-1F9B39A62CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D409A8-4D91-489E-BD81-1F9B39A62CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022308C9-F89D-4DA0-9820-2E81BAFA5592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022308C9-F89D-4DA0-9820-2E81BAFA5592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022308C9-F89D-4DA0-9820-2E81BAFA5592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022308C9-F89D-4DA0-9820-2E81BAFA5592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518BB5C6-BCDA-4042-BC8D-2A62FE3602B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518BB5C6-BCDA-4042-BC8D-2A62FE3602B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518BB5C6-BCDA-4042-BC8D-2A62FE3602B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518BB5C6-BCDA-4042-BC8D-2A62FE3602B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA730878-52CB-45FC-B262-60E4171CEFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA730878-52CB-45FC-B262-60E4171CEFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA730878-52CB-45FC-B262-60E4171CEFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA730878-52CB-45FC-B262-60E4171CEFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC76586-8052-42B1-8399-82EC7DDA6A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC76586-8052-42B1-8399-82EC7DDA6A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC76586-8052-42B1-8399-82EC7DDA6A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC76586-8052-42B1-8399-82EC7DDA6A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1880838-C7DE-4F09-88FC-9C8D6B7BC6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1880838-C7DE-4F09-88FC-9C8D6B7BC6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1880838-C7DE-4F09-88FC-9C8D6B7BC6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1880838-C7DE-4F09-88FC-9C8D6B7BC6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15F2D30C-DB73-4928-92EE-CE21C217DFD6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dtidesarrollo.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AppExtNextel\\AppExtNextel.csproj
+		SccProjectName1 = AppExtNextel
+		SccLocalPath1 = AppExtNextel
+		SccProjectUniqueName2 = CCustodiaDTIExt\\CCustodiaDTIExt.csproj
+		SccProjectName2 = CCustodiaDTIExt
+		SccLocalPath2 = CCustodiaDTIExt
+		SccProjectUniqueName3 = DSOControls2008\\DSOControls2008.csproj
+		SccProjectName3 = DSOControls2008
+		SccLocalPath3 = DSOControls2008
+		SccProjectUniqueName4 = KeytiaService\\KeytiaService.csproj
+		SccProjectName4 = KeytiaService
+		SccLocalPath4 = KeytiaService
+		SccProjectUniqueName5 = KeytiaServiceBL\\KeytiaServiceBL.csproj
+		SccProjectName5 = KeytiaServiceBL
+		SccLocalPath5 = KeytiaServiceBL
+		SccProjectUniqueName6 = KeytiaUtil\\KeytiaUtil.csproj
+		SccProjectName6 = KeytiaUtil
+		SccLocalPath6 = KeytiaUtil
+		SccProjectUniqueName7 = KeytiaUtilLib\\KeytiaUtilLib.csproj
+		SccProjectName7 = KeytiaUtilLib
+		SccLocalPath7 = KeytiaUtilLib
+		SccProjectUniqueName8 = SeeYouOnService\\SeeYouOnService.csproj
+		SccProjectName8 = SeeYouOnService
+		SccLocalPath8 = SeeYouOnService
+		SccProjectUniqueName9 = SeeYouOnServiceBL\\SeeYouOnServiceBL.csproj
+		SccProjectName9 = SeeYouOnServiceBL
+		SccLocalPath9 = SeeYouOnServiceBL
+		SccProjectUniqueName10 = KeytiaWeb\\KeytiaWeb.csproj
+		SccProjectName10 = KeytiaWeb
+		SccLocalPath10 = KeytiaWeb
+		SccProjectUniqueName11 = KeytiaServiceTester\\KeytiaServiceTester.csproj
+		SccProjectName11 = KeytiaServiceTester
+		SccLocalPath11 = KeytiaServiceTester
+	EndGlobalSection
+EndGlobal

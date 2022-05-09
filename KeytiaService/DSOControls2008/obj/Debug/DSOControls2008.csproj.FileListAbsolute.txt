@@ -1,0 +1,15 @@
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\DSOControls2008.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\DSOControls2008.pdb
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\KeytiaServiceBL.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\System.Web.DataVisualization.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\office.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\stdole.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\bin\Debug\KeytiaServiceBL.pdb
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\obj\Debug\DSOControls2008.csproj.AssemblyReference.cache
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\obj\Debug\DSOControls2008.csproj.CoreCompileInputs.cache
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\obj\Debug\DSOControls2008.csproj.CopyComplete
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\obj\Debug\DSOControls2008.dll
+C:\DesarrolloLAAV\VisualStudio\KeytiaService\KeytiaService\DSOControls2008\obj\Debug\DSOControls2008.pdb

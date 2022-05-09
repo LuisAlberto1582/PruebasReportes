@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E402AA4-5F92-427B-8307-C107536F662A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppExtNextel</RootNamespace>
+    <AssemblyName>AppExtNextel</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\temp\fuentes20130708CCustodia\KeytiaWeb\AjaxControlToolKit\AjaxControlToolkit.Binary.NET35\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="KeytiaWeb">
+      <HintPath>..\KeytiaWeb\bin\KeytiaWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="BusquedaExternaCCustodia\BusquedaExternaCCustodia.aspx" />
+    <Content Include="CCustodia.css" />
+    <Content Include="CCustodia\AppCCustodia.aspx" />
+    <Content Include="CCustodia\CCustodia.asmx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Directorio.aspx" />
+    <Content Include="images\adobe-pdf-logo.png" />
+    <Content Include="images\down-arrow-square-blue.png" />
+    <Content Include="images\down-arrow-square-orange.png" />
+    <Content Include="images\KeytiaHeader.png" />
+    <Content Include="images\KeytiaHeaderRespaldo.png" />
+    <Content Include="images\nextel.jpg" />
+    <Content Include="images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="images\up-arrow-square-blue.png" />
+    <Content Include="images\up-arrow-square-orange.png" />
+    <Content Include="RespaldoCCustodia.css" />
+    <Content Include="Resultados.aspx" />
+    <Content Include="Styles\keytia.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusquedaExternaCCustodia\BusquedaExternaCCustodia.aspx.cs">
+      <DependentUpon>BusquedaExternaCCustodia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaExternaCCustodia\BusquedaExternaCCustodia.aspx.designer.cs">
+      <DependentUpon>BusquedaExternaCCustodia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CCustodia\AppCCustodia.aspx.cs">
+      <DependentUpon>AppCCustodia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CCustodia\AppCCustodia.aspx.designer.cs">
+      <DependentUpon>AppCCustodia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CCustodia\CCustodia.asmx.cs">
+      <DependentUpon>CCustodia.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCustodia\DALCCustodia.cs" />
+    <Compile Include="CCustodia\Key2Int.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Directorio.aspx.cs">
+      <DependentUpon>Directorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Directorio.aspx.designer.cs">
+      <DependentUpon>Directorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DSOFileLinkHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultados.aspx.cs">
+      <DependentUpon>Resultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resultados.aspx.designer.cs">
+      <DependentUpon>Resultados.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DSOControls2008\DSOControls2008.csproj">
+      <Project>{597C4444-19D0-417F-AA7A-48A947CDEFB4}</Project>
+      <Name>DSOControls2008</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeytiaServiceBL\KeytiaServiceBL.csproj">
+      <Project>{3E7D0F4D-F17F-4A92-8E1D-1DDA2ABDF7A8}</Project>
+      <Name>KeytiaServiceBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeytiaService\KeytiaService.csproj">
+      <Project>{35C8C378-AF05-4AB0-9902-0551011D364C}</Project>
+      <Name>KeytiaService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeytiaUtilLib\KeytiaUtilLib.csproj">
+      <Project>{022308C9-F89D-4DA0-9820-2E81BAFA5592}</Project>
+      <Name>KeytiaUtilLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KeytiaUtil\KeytiaUtil.csproj">
+      <Project>{F8D409A8-4D91-489E-BD81-1F9B39A62CF2}</Project>
+      <Name>KeytiaUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeeYouOnServiceBL\SeeYouOnServiceBL.csproj">
+      <Project>{BA730878-52CB-45FC-B262-60E4171CEFF0}</Project>
+      <Name>SeeYouOnServiceBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeeYouOnService\SeeYouOnService.csproj">
+      <Project>{518BB5C6-BCDA-4042-BC8D-2A62FE3602B4}</Project>
+      <Name>SeeYouOnService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57092</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

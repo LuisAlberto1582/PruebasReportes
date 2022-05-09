@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CalcularID" xml:space="preserve">
+    <value>(SELECT MAX(iCodRegistro) + 1 FROM {0}),</value>
+    <comment>Se usa en el metodo de insert y update</comment>
+  </data>
+  <data name="CampodtUltFecAct" xml:space="preserve">
+    <value>dtfecultact</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="CampoiCodCatalogo" xml:space="preserve">
+    <value>icodcatalogo</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="CampoiCodRegistro" xml:space="preserve">
+    <value>icodregistro</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="CamposCatInsertHist" xml:space="preserve">
+    <value>(iCodRegistro, iCodCatalogo, vchCodigo, dtIniVigencia, dtFinVigencia, vchDescripcion, dtFecUltAct)</value>
+  </data>
+  <data name="CargaFacturaTelcel" xml:space="preserve">
+    <value>[VisHistoricos('Cargas','Cargas Factura Telcel','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Carga de Factura Telcel.</comment>
+  </data>
+  <data name="ConexionCollaborationKeytiaManagement" xml:space="preserve">
+    <value>conexionCollaborationKeytiaManagement</value>
+  </data>
+  <data name="ConexionCollaborationKMKeytiaManagement" xml:space="preserve">
+    <value>conexionCollaborationKMKeytiaManagement</value>
+  </data>
+  <data name="ConexionDefault" xml:space="preserve">
+    <value>ConexionDefault</value>
+    <comment>Nombre se la configuración que tiene como valor el nombre de la conexion que se desea sea el default.</comment>
+  </data>
+  <data name="ConexionKeytia5_157" xml:space="preserve">
+    <value>conexion157</value>
+    <comment>Nombre de la cadena de conexion a la base de datos de Keytia 5 en el server 192.168.1.157</comment>
+  </data>
+  <data name="ConexionKeytia5_159" xml:space="preserve">
+    <value>conexion159</value>
+    <comment>Nombre de la cadena de conexion a la base de datos de Keytia 5 en el server DTIMTYKEYTIA02</comment>
+  </data>
+  <data name="ConexionKeytia5_Collaboration" xml:space="preserve">
+    <value>conexionCollaboration</value>
+  </data>
+  <data name="ConexionKeytiaManagement_157" xml:space="preserve">
+    <value>conexion157KeytiaManagement</value>
+  </data>
+  <data name="ConexionKeytiaManagement_159" xml:space="preserve">
+    <value>conexion159KeytiaManagement</value>
+  </data>
+  <data name="ConexionKMKeytiaManagement_159" xml:space="preserve">
+    <value>conexion159KMKeytiaManagement</value>
+    <comment>Se conecta a la base de datos de KeytiaManagement del DTIMTYKEYTIA02</comment>
+  </data>
+  <data name="ConexionSiana_159" xml:space="preserve">
+    <value>conexion159Siana</value>
+    <comment>Nombre de la cadena de conexion a la base de datos de Siana en el server DTIMTYKEYTIA02</comment>
+  </data>
+  <data name="DataBase" xml:space="preserve">
+    <value>DATABASE</value>
+    <comment>Atributo DataBase de las cadenas de conexion.</comment>
+  </data>
+  <data name="DetalladoCargaCodigosAuto" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detalle Codigo Autorizacion','Español')]</value>
+    <comment>Se almacenan los registros de una carga de Códigos de autorizacion que se dieron de alta correctamente.</comment>
+  </data>
+  <data name="DetalladoCargaEmpleados" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detalle Empleados','Español')]</value>
+    <comment>Se almacenan los registros de una carga de empleados que se dieron de alta correctamente.</comment>
+  </data>
+  <data name="DetalladoCargaExtensiones" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detalle Extensiones','Español')]</value>
+    <comment>Se almacenan los registros de una carga de extensiones que se dieron de alta correctamente.</comment>
+  </data>
+  <data name="DetalladoCargaUsuarios" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detalle Usuarios','Español')]</value>
+    <comment>Se almacenan los registros de una carga  de usuarios que se dieron de alta correctamente.</comment>
+  </data>
+  <data name="DetalladoUsuariosKeytia" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detallado Usuarios','Español')]</value>
+    <comment>Se almacenan los registros de una carga de usuarios que se dieron de alta correctamente.</comment>
+  </data>
+  <data name="DirCargasKey" xml:space="preserve">
+    <value>DirectorioCargas</value>
+  </data>
+  <data name="DirLogoClientesKey" xml:space="preserve">
+    <value>DirectorioLogoClientes</value>
+  </data>
+  <data name="FechaDefaultMax" xml:space="preserve">
+    <value>2079-01-01 00:00:00</value>
+  </data>
+  <data name="FechaDefaultMin" xml:space="preserve">
+    <value>2011-01-01 00:00:00</value>
+  </data>
+  <data name="FormatCampoInsert" xml:space="preserve">
+    <value>[{0}], </value>
+    <comment>Se usa en el metodo de insert </comment>
+  </data>
+  <data name="FormatCampoUpDate" xml:space="preserve">
+    <value> [{0}] = {1}</value>
+    <comment>Se usa en el metodo de update</comment>
+  </data>
+  <data name="FormatoCadenaCliente" xml:space="preserve">
+    <value>uid={0};pwd={1};</value>
+  </data>
+  <data name="FormatoFecha" xml:space="preserve">
+    <value>yyyy-MM-dd HH:mm:ss</value>
+    <comment>Se usa en el metodo de insert y update</comment>
+  </data>
+  <data name="FormatoVarChar" xml:space="preserve">
+    <value> '{0}',</value>
+    <comment>Se usa en el metodo de insert y update</comment>
+  </data>
+  <data name="GetIdCat" xml:space="preserve">
+    <value>(SELECT iCodRegistro FROM @iCodRegCat),</value>
+    <comment>Se usa en el metodo de insert</comment>
+  </data>
+  <data name="HistoricoCargasEmpleado" xml:space="preserve">
+    <value>[VisHistoricos('Cargas','Cargas Empleado','Español')]</value>
+    <comment>Nombre de la vista de Historicos que guarda los parametros de carga de una carga de Empleados y sus Recursos.</comment>
+  </data>
+  <data name="HistoricoCargasFacturaMovistar" xml:space="preserve">
+    <value>[VisHistoricos('Cargas','Cargas Factura Movistar','Español')]</value>
+  </data>
+  <data name="HistoricoCentroDeCosto" xml:space="preserve">
+    <value>[VisHistoricos('Cencos','Centro de Costos','Español')]</value>
+    <comment>Nombre de la vista de Centros de costos.</comment>
+  </data>
+  <data name="HistoricoCodigosAuto" xml:space="preserve">
+    <value>[VisHistoricos('CodAuto','Codigo Autorizacion','Español')]</value>
+    <comment>Nombre de la vista de Historicos de codigos de autorizacion</comment>
+  </data>
+  <data name="HistoricoCuentaMaestraCarrier" xml:space="preserve">
+    <value>[VisHistoricos('CtaMaestra','Cuenta Maestra Carrier','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Cuentas Maestras</comment>
+  </data>
+  <data name="HistoricoEmpleado" xml:space="preserve">
+    <value>[VisHistoricos('Emple','Empleados','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Empleados</comment>
+  </data>
+  <data name="HistoricoEquipoCelular" xml:space="preserve">
+    <value>[VisHistoricos('EqCelular','Equipo Celular','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Equipos Celular</comment>
+  </data>
+  <data name="HistoricoEstatusCarga" xml:space="preserve">
+    <value>[VisHistoricos('EstCarga','Estatus Cargas','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Estutus de Cargas</comment>
+  </data>
+  <data name="HistoricoExtension" xml:space="preserve">
+    <value>[VisHistoricos('Exten','Extensiones','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Extensiones</comment>
+  </data>
+  <data name="HistoricoIdioma" xml:space="preserve">
+    <value>[VisHistoricos('Idioma','Idioma','Español')]</value>
+    <comment>Nombre de la vista de historicos de Idioma.</comment>
+  </data>
+  <data name="HistoricoLinea" xml:space="preserve">
+    <value>[VisHistoricos('Linea','Lineas','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Lineas</comment>
+  </data>
+  <data name="HistoricoMoneda" xml:space="preserve">
+    <value>[VisHistoricos('Moneda','Monedas','Español')]</value>
+    <comment>Nombre de la vista de historicos de Moneda.</comment>
+  </data>
+  <data name="HistoricoOrganizacion" xml:space="preserve">
+    <value>[VisHistoricos('Organizacion','Organizacion','Español')]</value>
+    <comment>Nombre de la vista de Historcos de las organzaciones.</comment>
+  </data>
+  <data name="HistoricoPerfiles" xml:space="preserve">
+    <value>[VisHistoricos('Perfil','Perfiles','Español')]</value>
+    <comment>Nombre de la vista de historicos de Perfiles.</comment>
+  </data>
+  <data name="HistoricoPlanTarifario" xml:space="preserve">
+    <value>[VisHistoricos('PlanTarif','Plan Tarifario','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Plan Tarifario</comment>
+  </data>
+  <data name="HistoricoPuestoEmpleado" xml:space="preserve">
+    <value>[VisHistoricos('Puesto','Puestos Empleado','Español')]</value>
+    <comment>Nombre de la vista de Historicos de los Puestos de los empleados.</comment>
+  </data>
+  <data name="HistoricoRazonSocial" xml:space="preserve">
+    <value>[VisHistoricos('RazonSocial','Razon Social','Español')]</value>
+    <comment>Nombre de la vista de Historicos de Razon Social</comment>
+  </data>
+  <data name="HistoricosUsuariosDB" xml:space="preserve">
+    <value>[VisHistoricos('UsuarDB','Usuarios DB','Español')]</value>
+  </data>
+  <data name="HistoricoTipoEmpleado" xml:space="preserve">
+    <value>[VisHistoricos('TipoEm','Tipo Empleado','Español')]</value>
+    <comment>Nombre de la vista de Historicos de los Tipos de empleados.</comment>
+  </data>
+  <data name="HistoricoTipoLicenciaExtension" xml:space="preserve">
+    <value>[VisHistoricos('TipoLicenciaExtension','Tipo de Licencia para Extension','Español')]</value>
+    <comment>Nombre de la vista de Historicos de los tipos de licencia. (Extension)</comment>
+  </data>
+  <data name="HistoricoTipoPlan" xml:space="preserve">
+    <value>[VisHistoricos('TipoPlan','Tipo Plan','Español')]</value>
+    <comment>Nombre de la vista de Historicos de los tipos de plan. (Linea)</comment>
+  </data>
+  <data name="HistoricoUsuarios" xml:space="preserve">
+    <value>[VisHistoricos('Usuar','Usuarios','Español')]</value>
+    <comment>Nombre de la vista de Historicos de usuarios.</comment>
+  </data>
+  <data name="HistoricoUsuariosDB" xml:space="preserve">
+    <value>[VisHistoricos('UsuarDB','Usuarios DB','Español')]</value>
+    <comment>Nombre de la vista de Historicos de usuarios db.</comment>
+  </data>
+  <data name="InstruccionInsert" xml:space="preserve">
+    <value>INSERT INTO {0}</value>
+    <comment>Se usa en el metodo de insert </comment>
+  </data>
+  <data name="InstruccionOutPut" xml:space="preserve">
+    <value>OUTPUT INSERTED.{0}</value>
+    <comment>Se usa en el metodo de insert</comment>
+  </data>
+  <data name="InstruccionUpdate" xml:space="preserve">
+    <value>UPDATE {0}</value>
+    <comment>Se usa en el metodo de update</comment>
+  </data>
+  <data name="KeytiaManagementBD" xml:space="preserve">
+    <value>KeytiaManagement</value>
+    <comment>Nombre de la base datos que lleva la administracion de perfiles, menus y usuarios de la aplicacion</comment>
+  </data>
+  <data name="NombreGenericoHistorico" xml:space="preserve">
+    <value>vishistorico</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="NombreGenericoRelaciones" xml:space="preserve">
+    <value>visrelaciones</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>PASSWORD</value>
+    <comment>Atributo Password de las cadenas de conexion.</comment>
+  </data>
+  <data name="PendientesCargaCodigosAuto" xml:space="preserve">
+    <value>[VisPendientes('Detall','Codigo AutorizacionPendiente','Español')]</value>
+    <comment>Se almacenan los registros de una carga de códigos de autorizacion que se mandaron a pendientes por no pasar por las validaciones.</comment>
+  </data>
+  <data name="PendientesCargaEmpleado" xml:space="preserve">
+    <value>[VisPendientes('Detall','EmpleadosPendiente','Español')]</value>
+    <comment>Se almacenan los registros de una carga de empleados que se mandaron a pendientes por no pasar las validaciones.</comment>
+  </data>
+  <data name="PendientesCargaExtensiones" xml:space="preserve">
+    <value>[VisPendientes('Detall','ExtensionesPendiente','Español')]</value>
+    <comment>Se almacenan los registros de una carga de extensiones que se mandaron a pendientes por no pasar las validaciones.</comment>
+  </data>
+  <data name="PendientesCargaUsuarios" xml:space="preserve">
+    <value>[VisPendientes('Detall','Usuarios Pendiente','Español')]</value>
+    <comment>Se almacenan los registros de una carga de usuarios que van a pendientes por no pasar las validaciones</comment>
+  </data>
+  <data name="RegexValidarEmail" xml:space="preserve">
+    <value>^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$</value>
+  </data>
+  <data name="Relacion" xml:space="preserve">
+    <value>Relaciones</value>
+    <comment>Nombre de la tabla de Relaciones.</comment>
+  </data>
+  <data name="RelacionCenCosEmple" xml:space="preserve">
+    <value>[VisRelaciones('CentroCosto-Empleado','Español')]</value>
+    <comment>Nombre de la vista de Relaciones de Centro de costo con Empleado.</comment>
+  </data>
+  <data name="RelacionCodAutoEmple" xml:space="preserve">
+    <value>[VisRelaciones('Empleado - CodAutorizacion','Español')]</value>
+    <comment>Nombre de la vista de Relaciones de Empleados con Codigos de Autorización.</comment>
+  </data>
+  <data name="RelacionExtenEmple" xml:space="preserve">
+    <value>[VisRelaciones('Empleado - Extension','Español')]</value>
+    <comment>Nombre de la vista de Relaciones de Empleados con Extension</comment>
+  </data>
+  <data name="RelacionLineaEmple" xml:space="preserve">
+    <value>[VisRelaciones('Empleado - Linea','Español')]</value>
+    <comment>Nombre de la vista de Relaciones de Empleados con Lineas.</comment>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>SERVER</value>
+    <comment>Atributo Server de las cadenas de conexion.</comment>
+  </data>
+  <data name="ServerProduccion" xml:space="preserve">
+    <value>DTIMTYKEYTIA02</value>
+  </data>
+  <data name="TablaHistorico" xml:space="preserve">
+    <value>Historicos</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="TablaRelaciones" xml:space="preserve">
+    <value>Relaciones</value>
+    <comment>Se usa el metodo de insert generico.</comment>
+  </data>
+  <data name="TipoDateTime" xml:space="preserve">
+    <value>DateTime</value>
+    <comment>Se usa en el metodo de insert y update</comment>
+  </data>
+  <data name="TipoString" xml:space="preserve">
+    <value>String</value>
+    <comment>Se usa en el metodo de insert y update</comment>
+  </data>
+  <data name="TopDeValoresAEliminarBD" xml:space="preserve">
+    <value>2000</value>
+    <comment>Número de registros que se consideraran para la eliminacion de registros en la BD. (Eliminacion fisica de datos en masiva)</comment>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>USER ID</value>
+    <comment>Atributo User Id de las cadenas de conexion.</comment>
+  </data>
+  <data name="ValorEntidadEmpleado" xml:space="preserve">
+    <value>6</value>
+    <comment>Es el valor de la entidad de los Empleados.</comment>
+  </data>
+  <data name="Valores" xml:space="preserve">
+    <value>[VisHistoricos('Valores','Valores','Español')]</value>
+    <comment>Nombre de la vista de Valores de Atributos.</comment>
+  </data>
+  <data name="ValorNull" xml:space="preserve">
+    <value> NULL,</value>
+    <comment>Se usa en el metodo de insert y update</comment>
+  </data>
+  <data name="DetalladoCargaLineas" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detalle Lineas','Español')]</value>
+  </data>
+  <data name="PendientesCargaLineas" xml:space="preserve">
+    <value>[VisPendientes('Detall','LineasPendiente','Español')]</value>
+  </data>
+  <data name="DefaultHomePageEmple" xml:space="preserve">
+    <value>~/UserInterface/DashboardFC/Dashboard.aspx</value>
+    <comment>Se utiliza como valor default para los usuarios que se creen con perfil Empleado.</comment>
+  </data>
+  <data name="DetalladoCargaCentrosCostos" xml:space="preserve">
+    <value>[VisDetallados('Detall','Detalle Centro de Costos','Español')]</value>
+    <comment>Se almacenan los registros de una carga de centros de costos que se dieron de alta correctamente.</comment>
+  </data>
+  <data name="PendientesCargaCenCos" xml:space="preserve">
+    <value>[VisPendientes('Detall','Centro de CostosPendiente','Español')]</value>
+    <comment>Se almacenan los registros de una carga de Centros de Costos que se mandaron a pendientes por no pasar las validaciones.</comment>
+  </data>
+  <data name="HistoricoSitioTIM" xml:space="preserve">
+    <value>[VisHistoricos('SitioTIM','Sitios TIM','Español')]</value>
+  </data>
+  <data name="TIMInventarioQueryBaja" xml:space="preserve">
+    <value>UPDATE TOP(1) [TIMInventarioRecursos] SET FechaBajaInt = {0}, Estatus = 'INACTIVO', dtFecUltAct = GETDATE(), UltFecFacAct = {1} WHERE LadaTelefono = '{2}' AND iCodCatClaveCar = {3} AND Estatus = 'ACTIVO' AND iCodCatCarrier = {4} AND iCodCatRecursoContratado = {5} AND Cantidad = {6} AND iCodCatEmpre = {7};</value>
+  </data>
+  <data name="TIMInventarioQueryBajaToAlta" xml:space="preserve">
+    <value>UPDATE TOP(1) [TIMInventarioRecursos] SET FechaBajaInt = NULL, FechaAltaInt = {0}, Estatus = 'ACTIVO', dtFecUltAct = GETDATE(), UltFecFacAct = {1} WHERE LadaTelefono = '{2}' AND iCodCatClaveCar = {3} AND Estatus = 'INACTIVO' AND iCodCatCarrier = {4} AND iCodCatRecursoContratado = {5} AND Cantidad = {6} AND iCodCatEmpre = {7};</value>
+  </data>
+  <data name="TIMInventarioQueryUpdateCtaSubCuenta" xml:space="preserve">
+    <value>UPDATE TOP(1) [TIMInventarioRecursos] SET Cuenta = '{0}', Subcuenta = '{1}', dtFecUltAct = GETDATE(), UltFecFacAct = {2} WHERE LadaTelefono = '{3}' AND iCodCatClaveCar = {4} AND iCodCatCarrier = {5} AND iCodCatRecursoContratado = {6}  AND iCodCatEmpre = {7};</value>
+  </data>
+  <data name="TIMInventarioQueryUpdateUbicaRecurs" xml:space="preserve">
+    <value>UPDATE TOP(1) [TIMInventarioRecursos] SET iCodUbicaRecur = {0}, dtFecUltAct = GETDATE() WHERE LadaTelefono = '{1}' AND iCodCatCarrier = {2} AND iCodCatEmpre = {3};</value>
+  </data>
+  <data name="TIMTablaTIMAxtelCargosUnicos" xml:space="preserve">
+    <value>TIMAxtelCargosUnicos</value>
+  </data>
+  <data name="TIMTablaTIMAxtelDetalleFactura" xml:space="preserve">
+    <value>TIMAxtelDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMBestelDetalleFactura" xml:space="preserve">
+    <value>TIMBestelDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMInventarioRecursos" xml:space="preserve">
+    <value>TIMInventarioRecursos</value>
+  </data>
+  <data name="TIMTablaTIMReactivacionesInventarioRecur" xml:space="preserve">
+    <value>TIMReactivacionesInventarioRecur</value>
+  </data>
+  <data name="TIMTablaTIMRentaGlobal" xml:space="preserve">
+    <value>TIMRentaGlobal</value>
+  </data>
+  <data name="TIMTablaTIMRentaPorSubCuenta" xml:space="preserve">
+    <value>TIMRentaPorSubCuenta</value>
+  </data>
+  <data name="TIMTablaTIMTarifaGlobal" xml:space="preserve">
+    <value>TIMTarifaGlobal</value>
+  </data>
+  <data name="TIMTablaTIMTarifaPorSubCuenta" xml:space="preserve">
+    <value>TIMTarifaPorSubCuenta</value>
+  </data>
+  <data name="TIMTablaTIMTotalPlayDetalleFactura" xml:space="preserve">
+    <value>TIMTotalPlayDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMAlestraDetalleFactura" xml:space="preserve">
+    <value>TIMAlestraDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMConsolidadoPorClaveCargo" xml:space="preserve">
+    <value>TIMConsolidadoPorClaveCargo</value>
+  </data>
+  <data name="TIMTablaTIMConsolidadoPorSitio" xml:space="preserve">
+    <value>TIMConsolidadoPorSitio</value>
+  </data>
+  <data name="TIMTablaTIMBTDetalleFactura" xml:space="preserve">
+    <value>TIMBTDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMFacturaXML" xml:space="preserve">
+    <value>TIMFacturaXML</value>
+  </data>
+  <data name="TIMTablaTIMTelmexUninetFullDetalle" xml:space="preserve">
+    <value>TIMTelmexUninetFullDetalle</value>
+  </data>
+  <data name="HistoricoTDest" xml:space="preserve">
+    <value>[VisHistoricos('TDest','Tipo de Destino','Español')]</value>
+  </data>
+  <data name="TIMTablaTIMATTDetalleFactura" xml:space="preserve">
+    <value>TIMATTDetalleFactura</value>
+  </data>
+  <data name="HistoricoEstados" xml:space="preserve">
+    <value>[VisHistoricos('Estados','Estados','Español')]</value>
+  </data>
+  <data name="HistoricoLocali" xml:space="preserve">
+    <value>[VisHistoricos('Locali','Localidades','Español')]</value>
+  </data>
+  <data name="HistoricoPaises" xml:space="preserve">
+    <value>[VisHistoricos('Paises','Paises','Español')]</value>
+  </data>
+  <data name="TablaMarcacionLocalidades" xml:space="preserve">
+    <value>MarcacionLocalidades</value>
+  </data>
+  <data name="HistoricoSitioTIMNombrePublico" xml:space="preserve">
+    <value>[VisHistoricos('SitioTIMNombrePublico','Sitios TIM Nombre Publico','Español')]</value>
+  </data>
+  <data name="TIMTablaTIMITTMICHDetalleFactura" xml:space="preserve">
+    <value>TIMITTMichDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMMegaCableDetalleFactura" xml:space="preserve">
+    <value>TIMMegaCableDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMComIntCelDetalleFactura" xml:space="preserve">
+    <value>TIMComIntCelDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMAxtelv2DetalleFactura" xml:space="preserve">
+    <value>TIMAxtelv2DetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMMovistarDetalleFactura" xml:space="preserve">
+    <value>TIMMovistarDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMSoftelDetalleFactura" xml:space="preserve">
+    <value>TIMSoftelDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMKonetaDetalleFactura" xml:space="preserve">
+    <value>TIMKonectaDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMKonectaDetalleFactura" xml:space="preserve">
+    <value>TIMKonectaDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMConceptoMovilDetalleFactura" xml:space="preserve">
+    <value>TIMConceptoMovilDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMBBSDetalleFactura" xml:space="preserve">
+    <value>TIMBBSDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMPODERNETDetalleFactura" xml:space="preserve">
+    <value>TIMPODERNETDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMSIERRAMADREDetalleFactura" xml:space="preserve">
+    <value>TIMSIERRAMADREDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMWICODetalleFactura" xml:space="preserve">
+    <value>TIMWICODetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMGlobalSatDetalleFactura" xml:space="preserve">
+    <value>TIMGlobalSatDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMTelumDetalleFactura" xml:space="preserve">
+    <value>TIMTelumDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMMETROCARRIERDetalleFactura" xml:space="preserve">
+    <value>TIMMETROCARRIERDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMSariaDetalleFactura" xml:space="preserve">
+    <value>TIMSariaDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMMarcatelDetalleFactura" xml:space="preserve">
+    <value>TIMMarcatelDetalleFactura</value>
+  </data>
+  <data name="InstruccionSelectOUTPUT" xml:space="preserve">
+    <value>select {0} from @inserted</value>
+  </data>
+  <data name="TIMTablaTIMSmartNettDetalleFactura" xml:space="preserve">
+    <value>TIMSmartNettDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMCreatividadInternetDetalleFactura" xml:space="preserve">
+    <value>TIMCreatividadInternetDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMCreativeNetDetalleFactura" xml:space="preserve">
+    <value>TIMCreativeNetDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMHO1ADetalleFactura" xml:space="preserve">
+    <value>TIMHO1ADetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMMaxcomGenericoDetalleFactura" xml:space="preserve">
+    <value>TIMMaxcomGenericoDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMNetLinkDetalleFactura" xml:space="preserve">
+    <value>TIMNetLinkDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMIusacellDetalleFactura" xml:space="preserve">
+    <value>TIMIusacellDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMXpertusDetalleFactura" xml:space="preserve">
+    <value>TIMXpertusDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMFive9DetalleFactura" xml:space="preserve">
+    <value>TIMFive9DetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMUBIXDetalleFactura" xml:space="preserve">
+    <value>TIMUBIXDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMTranstelcoDetalleFactura" xml:space="preserve">
+    <value>TIMTranstelcoDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMGlobalcomsysDetalleFactura" xml:space="preserve">
+    <value>TIMGlobalcomsysDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMTelefonicaDetalleFactura" xml:space="preserve">
+    <value>TIMTelefonicaDetalleFactura</value>
+  </data>
+  <data name="TIMTablaTIMGlobalSatV2DetalleFactura" xml:space="preserve">
+    <value>TIMGlobalSatV2DetalleFactura</value>
+  </data>
+  <data name="DefaultHomePageEmpleBAT" xml:space="preserve">
+    <value>~/UserInterface/DashboardFC/DashboardConsumoIndiv.aspx</value>
+  </data>
+  <data name="TIMTablaTIMDSCDetalleFactura" xml:space="preserve">
+    <value>TIMDSCDetalleFactura</value>
+  </data>
+</root>

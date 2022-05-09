@@ -1,0 +1,161 @@
+﻿/*RZ.20130301 Se agregan estilos para Cartas Custodia Nextel*/
+
+/*#766A62 gris obscuro letras
+#ECEEE7 gris claro trasfondos
+#E05206 naranja
+#fece2f naranja claro
+#d06105 naranja obscuro en OrangeNextel
+*/
+
+body
+{
+    /*font-family : Arial;
+     font-size: 10pt;*/
+}
+
+/*Modal Pop Up*/
+.modalBackground {
+	background-color:Black;
+	
+}
+.modalPopup {
+	background-color:#ECEEE7;
+	border-width:3px;
+	border-style:solid;
+	border-color:black;
+	padding-top:10px;
+	padding-left:10px;
+	width:600px;
+	height:300px;
+}
+
+/*Header para secciones de Cartas Custodias*/
+.headerCCustodia 
+{
+	background-color:#d06105;
+	border-color:#766A62;
+	/*border-style:solid;*/
+	height:20px;
+	margin-top:0px;
+	
+}
+
+/*Cuando se hace over sobre el panel*/
+.headerCCustodia:hover{
+    background:#fece2f;
+    color:#381f00;
+ } 
+
+/*GridViews de inventario, codigos y extensiones*/
+/*Definimos el CSS para todas las GridView con la Clase GridView*/
+table.GridView {
+	font-family:Verdana; 
+	font-size:12px;
+	color:#444;
+	border:2px solid #000;
+	} 
+
+/*Header de gridview*/
+
+table.GridView tr th
+{
+	border-color:#d06105;
+	border-collapse:separate;
+	vertical-align:middle;
+	line-height:30px;
+	padding:4px;
+    background-color:#000;
+    font-size:12px;
+    color:#ECEEE7; 
+    text-align:center;
+}
+
+ /*Aplicamos CSS para cada celda del GridView*/    
+ table.GridView tr td{ 
+    height:24px;
+    vertical-align:middle;
+    line-height:24px;
+    padding-left:6px;
+    padding-right:6px;
+  }
+  
+ /*Clases para obtener el efecto Zebra en la GridView*/
+/*Es Necesario agregar la propiedad "RowStyle" y "AlternatingRowStyle" a la GridView despues de Columns */
+/*RowStyle CssClass="GridRowOdd" */
+/*AlternatingRowStyle CssClass="GridRowEven" */
+           
+.GridRowOdd{background-color:#D0C2A3;} 
+.GridRowEven{background-color:White;}
+
+ /*Aplicamos este CSS para cada fila cuando el mouse esta encima de la fila*/
+ table.GridView tr:hover{
+    background:#fac754;
+    color:#381f00;
+ } 
+
+/*Este CSS se aplica cuando se ha selccionado un fila del GridView*/
+/*Es Necesario agregar la propiedad "SelectedRowStyle" despues de Columns*/
+/*SelectedRowStyle CssClass="GridRowSelected"*/
+/*
+.GridRowSelected{
+    background-color:White;
+    color:#381f00;
+}
+*/
+
+/*AutoComplete flyout */
+.completionList {
+border:solid 1px #444444;
+margin:0px;
+padding:2px;
+height: 100px;
+overflow:auto;
+background-color: #FFFFFF;
+}
+
+.listItem {
+color: #1C1C1C;
+}
+
+.itemHighlighted {
+background-color: #fac754;
+}
+
+.CompletionListCssClass
+{
+    font-size: 11px;
+    color: Black;
+    padding: 3px 5px;
+    border: 1px solid #999;
+    background: #fece2f;
+    width: 300px;
+    float: left;
+    z-index: 1;
+    position:absolute;
+    margin-left:0px;
+}
+
+/*Titulo de Carta Custodia Servicios de voz*/
+.titleCCustodia 
+{
+	font-size:large;
+	font-weight:bold;
+	color:#E05206;
+}
+
+
+/*Titulo de secciones en cartas custodia
+style="cursor:pointer"
+*/
+.titleSeccionCCustodia
+{
+	color: #ECEEE7;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/*Cuando se hace over sobre label*/
+.titleSeccionCCustodia:hover{
+    color:Black;
+	font-weight:bold;
+ } 

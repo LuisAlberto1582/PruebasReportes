@@ -1,0 +1,451 @@
+﻿body
+{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+label
+{
+    color: #2E6E9E;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.LabelsDirectorio
+{
+	/* NZ 20151008 Cambio de colores */
+    /* color: #D66100; */
+    color: #2E6E9E;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.botonesBusqExtCCust, input[type="submit"]
+{
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    /* NZ 20151008 Cambio de colores */
+    /*background-color: #d66000;*/
+    background-color: #2E6E9E;
+}
+/*
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #D66100), color-stop(1, #FF9E4F) );
+    background: -moz-linear-gradient( center top, #D66100 5%, #FF9E4F 100% );
+    background-position: -moz-linear-gradient( center top, #D66100 5%, #FF9E4F 100% );
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FF9E4F), color-stop(1, #D66100) );
+    background: -moz-linear-gradient( center top, #FF9E4F 5%, #D66100 100% );
+*/
+body, td, a
+{
+    font-family: Verdana;
+    font-size: 8pt;
+}
+
+A
+{
+    text-decoration: none;
+    color: #2E6E9E;
+    font-weight: bold;
+}
+
+A:active
+{
+    text-decoration: none;
+    color: #2E6E9E;
+    font-weight: bold;
+}
+
+A:visited
+{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+A:hover
+{
+    text-decoration: underline;
+}
+
+.divWrapper
+{
+    background-color: White;
+    padding: 10px;
+}
+
+.divWrapper .divWrapperInner
+{
+    background-color: White;
+}
+
+
+.pageTitle, span.pageTitle, .pageTitle a
+{
+    font-family: Tahoma;
+    color: #2E6E9E;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.pageTitle a
+{
+    font-size: 100%;
+}
+
+.sectionTitle
+{
+    color: #d06105;
+    font-weight: bold;
+}
+
+.toolbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: Beige;
+    border-color: DarkGray;
+    border-style: Solid;
+    border-width: 1px;
+}
+
+.toolbarButton
+{
+    cursor: pointer;
+}
+
+.toolbarLabel
+{
+    font-size: x-small;
+    text-align: center;
+}
+
+/*Navegador Horizontal******************************************/
+﻿.ui-smoothMenu-disabled *
+{
+    cursor: default;
+}
+.DSONavegadorH, .ui-smoothMenu > div > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.DSONavegadorH > li
+{
+    float: left;
+}
+
+.DSONavegadorH > li a
+{
+    display: block;
+    width: 150px;
+}
+
+.DSONavegadorH > li ul, .ui-smoothMenu > div > ul
+{
+    width: 176px;
+}
+
+.ui-smoothMenu > div > ul > li > a
+{
+    display: block;
+}
+
+ul.clearfix:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.ui-smoothMenu-item
+{
+    padding-right: 24px;
+    position: relative;
+}
+
+.ui-smoothMenu-item .ui-icon
+{
+    right: 4px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+}
+
+/*Navegador Vertical******************************************/
+.DSONavegadorV a
+{
+    display: block;
+}
+
+/*Reporte Estandar******************************************/
+.ReporteEstandar .Zonas
+{
+    width: 1220px;
+}
+
+.ZonaGraficasHorizontal
+{
+    position: relative;
+    float: left;
+    width: 610px;
+}
+.ZonaReporteHorizontal
+{
+    position: relative;
+    float: left;
+    width: 610px;
+}
+
+.ZonaGraficasHorizontal .DSORadioButtonList
+{
+    position: relative;
+    float: right;
+}
+
+.PanelGraficaVertical, .PanelGraficaHisVertical
+{
+    position: relative;
+    float: left;
+}
+
+.ZonaReporteVertical
+{
+    width: 100%;
+    float: left;
+}
+
+tr.SubTotalPag, .RepRuta
+{
+    font-weight: bold;
+}
+
+td.RepInt, td.RepIntFormat, td.RepFloat, td.RepCurrency
+{
+    text-align: right;
+}
+
+td.RepDate, td.RepDateTime
+{
+    text-align: center;
+}
+
+td.RepDefault
+{
+    text-align: justify;
+}
+
+.ReporteEstandar .DSOExpandable .ui-widget-content
+{
+    border-style: none;
+}
+
+.ReporteEstandar .dataTables_wrapper
+{
+    min-height: 100px;
+    _height: 100px;
+}
+
+.ZonaReporteHorizontal .dataTables_scrollBody
+{
+    max-height: 500px;
+    _height: 500px;
+}
+
+.ZonaParametros .ColSpan1
+{
+    width: 40%;
+}
+
+.ZonaParametros .ColSpan3
+{
+    width: 90%;
+}
+
+.ZonaParametros .MultiSelectWrapper .DSOGrid
+{
+    width: 100% !important;
+}
+
+.RepHeader
+{
+    width: 100%;
+}
+.RepTcLbl
+{
+    vertical-align: middle;
+    background-color: #2E6E9E;
+    color: White;
+}
+.RepTcLbl .Columns2 .ColSpan1
+{
+    width: 10%;
+}
+.RepTcLbl .Columns2 .ColSpan2, .RepTcDesc .Columns2 .ColSpan2
+{
+    width: 100%;
+}
+.RepTcDesc .Columns2 .ColSpan1
+{
+    width: 90%;
+}
+.RepTcLbl .Columns4 .ColSpan1
+{
+    width: 10%;
+}
+.RepTcLbl .Columns4 .ColSpan2, .RepTcDesc .Columns4 .ColSpan2
+{
+    width: 50%;
+}
+.RepTcLbl .Columns4 .ColSpan3, .RepTcDesc .Columns4 .ColSpan3
+{
+    width: 90%;
+}
+.RepTcLbl .Columns4 .ColSpan4, .RepTcDesc .Columns4 .ColSpan4
+{
+    width: 100%;
+}
+.RepTcDesc .Columns4 .ColSpan1
+{
+    width: 40%;
+}
+
+/*Dashboard******************************************/
+.DashboardPanelReportes
+{
+    width: 1220px;
+}
+
+.DashboardCell1 .DashboardPanelConfig .DSODropDownList
+{
+    width: 580px;
+    float: left;
+}
+
+.DashboardCell2 .DashboardPanelConfig .DSODropDownList
+{
+    width: 1190px;
+    float: left;
+}
+
+.DashboardReporte
+{
+    position: relative;
+    float: left;
+    width: 610px;
+}
+
+.DashboardTablaReportes td
+{
+    vertical-align: top;
+}
+
+td.DashboardCell1, td.DashboardCell2
+{
+    border: 1px solid #c5dbec;
+}
+
+.DashboardCell1 .ReporteEstandar .Zonas
+{
+    width: 610px;
+}
+
+.DashboardCell2 .ReporteEstandar .Zonas
+{
+    width: 1220px;
+}
+
+.DashboardReporte2Bloques
+{
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.DashboardReporte .dataTables_wrapper, .DashboardReporte2Bloques .dataTables_wrapper
+{
+    min-height: 100px;
+    _height: 100px;
+}
+
+.DashboardReporte .dataTables_scrollBody, .DashboardReporte2Bloques .dataTables_scrollBody, .ReporteEstandar .dataTables_scrollBody
+{
+    max-height: 300px;
+    _height: 300px;
+    overflow-x: scroll !important;
+}
+
+
+/*************************************** NZ 20151008 Cambios en el tema (Colores) ********************************/
+.headerCCustodia 
+{	
+	border: 1px solid #4297D7;
+    background: #5C9CCC url(../images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    color: #FFFFFF;
+    font-weight: bold;	
+}
+
+table.GridView {
+	font-family:Verdana; 
+	font-size:11px;
+	color:#444;
+	border:1px solid #000;
+	} 
+
+table.GridView tr th
+{
+	border-collapse:separate;
+	vertical-align:middle;	
+	padding:4px;  
+    font-size:12px;
+    text-align:center;  
+    border: 1px solid #c5dbec;
+	background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #2E6E9E;
+}
+   
+table.GridView tr td{ 
+    height:20px;
+    vertical-align:middle;
+    line-height:20px;
+    padding-left:6px;
+    padding-right:6px;         
+    color: Black;   
+  }    
+  
+  table.GridView tr td a
+  {
+  	font-weight:bold;   
+  }
+  
+.GridRowOdd{background-color:#F1F4F8;} 
+.GridRowEven{background-color:White;}
+
+ table.GridView tr:hover
+ { 
+    background:#CADBE9; 
+    color: Black;     
+ } 

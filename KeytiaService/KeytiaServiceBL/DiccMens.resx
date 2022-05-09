@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DA001" xml:space="preserve">
+    <value>Base de datos no disponible.</value>
+  </data>
+  <data name="DA002" xml:space="preserve">
+    <value>Ocurrió un error en la capa de AccessLayer</value>
+  </data>
+  <data name="DA003" xml:space="preserve">
+    <value>Se requiere el Id de la entidad del elemento.</value>
+  </data>
+  <data name="DL001" xml:space="preserve">
+    <value>Ocurrió un error en la capa de Datos.</value>
+  </data>
+  <data name="DL002" xml:space="preserve">
+    <value>Error en los datos</value>
+  </data>
+  <data name="DL003" xml:space="preserve">
+    <value>El Código ya existe: {0}</value>
+  </data>
+  <data name="DL004" xml:space="preserve">
+    <value>La Extensión ya existe: {0}</value>
+  </data>
+  <data name="DL005" xml:space="preserve">
+    <value>El Empleado ya existe: {0}</value>
+  </data>
+  <data name="DL006" xml:space="preserve">
+    <value>La Linea ya existe: {0}</value>
+  </data>
+  <data name="DL007" xml:space="preserve">
+    <value>El Usuario ya existe: {0}</value>
+  </data>
+  <data name="DL008" xml:space="preserve">
+    <value>Por seguridad no se permite un borrado logico del historico si este tiene relaciones activas o historia.</value>
+  </data>
+  <data name="DL009" xml:space="preserve">
+    <value>Fechas Invalidas o no se encontró el elemento.</value>
+  </data>
+  <data name="DL010" xml:space="preserve">
+    <value>Hay traslape de fechas</value>
+  </data>
+  <data name="DL011" xml:space="preserve">
+    <value>No es posible dar de baja la relación actualmente activa. Las fechas no van de forma cronologica. La fecha de inicio de esta relacion es menor a la fecha de inicio de la relación actualmente activa.</value>
+  </data>
+  <data name="DL012" xml:space="preserve">
+    <value>Se encontró más de una relación activa.</value>
+  </data>
+  <data name="DL013" xml:space="preserve">
+    <value>No se encontró el historico.</value>
+  </data>
+  <data name="DL014" xml:space="preserve">
+    <value>Fechas no validas.</value>
+  </data>
+  <data name="DL015" xml:space="preserve">
+    <value>No se encontró el centro de costos por indentificar.</value>
+  </data>
+  <data name="DL016" xml:space="preserve">
+    <value>No se puede dar de baja el elemento. Cuenta con relaciones activas.</value>
+  </data>
+  <data name="DL017" xml:space="preserve">
+    <value>Los datos del Empleado son incorrectos favor de validar.</value>
+  </data>
+  <data name="DL018" xml:space="preserve">
+    <value>No fue posible reactivar el empleado. El último centro de costos al que pertenció no esta  activo.</value>
+  </data>
+  <data name="DL019" xml:space="preserve">
+    <value>No fue posible crear el empleado. Las fechas ingresadas coinciden con las de otro registro.</value>
+  </data>
+  <data name="DL020" xml:space="preserve">
+    <value>El centro de costos con el que se desea relacionar al empleado no exixte o no se encuentra activo.</value>
+  </data>
+  <data name="DL021" xml:space="preserve">
+    <value>Los datos de la extensión son incorrectos favor de validar.</value>
+  </data>
+  <data name="DL022" xml:space="preserve">
+    <value>Los datos del código de autorización son incorrectos favor de validar.</value>
+  </data>
+  <data name="DL023" xml:space="preserve">
+    <value>Los datos de la línea son incorrectos favor de validar.</value>
+  </data>
+  <data name="DL024" xml:space="preserve">
+    <value>Los datos del usuario son incorrectos favor de validar.</value>
+  </data>
+  <data name="DL025" xml:space="preserve">
+    <value>La nómina ingresada no es válida.</value>
+  </data>
+  <data name="DL026" xml:space="preserve">
+    <value>No fue posible dar de baja la relación de centro de costos: La Fecha Inicio no puede ser mayor a la Fecha Fin.</value>
+  </data>
+  <data name="DL027" xml:space="preserve">
+    <value>El sitio no se encuentra activo.</value>
+  </data>
+  <data name="DL028" xml:space="preserve">
+    <value>El empleado no se encuentra activo.</value>
+  </data>
+  <data name="DL029" xml:space="preserve">
+    <value>No fue posible crear la extension. Las fechas coinciden con las de otro registro.</value>
+  </data>
+  <data name="DL030" xml:space="preserve">
+    <value>No se encontró el historico para actualizar el atributo.</value>
+  </data>
+  <data name="DL031" xml:space="preserve">
+    <value>No se podra dar de baja una relacion con una Fecha Fin posterior a la Fecha Fin que tiene actualmente.</value>
+  </data>
+  <data name="DL032" xml:space="preserve">
+    <value>No se encontró el empleado "POR IDENTIFICAR". para actualizar el atributo.</value>
+  </data>
+  <data name="DL033" xml:space="preserve">
+    <value>No se encontró ninguna relación anterior de Centro de costos al cual asignar el empleado. Inconsistencia. Empleado sin CenCos, Nómina:  {0}</value>
+  </data>
+  <data name="DL034" xml:space="preserve">
+    <value>El rango de la relación esta fuera de los rangos de Empleado. El rango del empleado es: {0} - {1}</value>
+  </data>
+  <data name="DL035" xml:space="preserve">
+    <value>No fue posible crear la relación. Hay traslape de fechas entre las relaciones de la misma extensión con las que cuenta el empleado.</value>
+  </data>
+  <data name="DL036" xml:space="preserve">
+    <value>No fue posible crear el código de autorización. Las fechas coinciden con las de otro registro.</value>
+  </data>
+  <data name="DL038" xml:space="preserve">
+    <value>El Carrier no se encuentra activo.</value>
+  </data>
+  <data name="DL039" xml:space="preserve">
+    <value>No fue posible crear la linea. Las fechas coinciden con las de otro registro.</value>
+  </data>
+  <data name="DL040" xml:space="preserve">
+    <value>Error en las fechas. Sale de los rangos de vigencia de los registros del Empleado.</value>
+  </data>
+  <data name="DL041" xml:space="preserve">
+    <value>No se encontró el historico del Usuario.</value>
+  </data>
+  <data name="DL042" xml:space="preserve">
+    <value>No se fue posible dar de alta la extension por que esta fuera del rango del sitio.</value>
+  </data>
+  <data name="DL043" xml:space="preserve">
+    <value>No fue posible eliminar el registro de Detallados.</value>
+  </data>
+  <data name="DL044" xml:space="preserve">
+    <value>No fue posible eliminar el registro de Pendientes.</value>
+  </data>
+  <data name="DL045" xml:space="preserve">
+    <value>El Usuario o Email ya existen.</value>
+  </data>
+  <data name="DL046" xml:space="preserve">
+    <value>No contiene todos los campos requeridos.</value>
+  </data>
+  <data name="DL047" xml:space="preserve">
+    <value>El Email ya existe.</value>
+  </data>
+  <data name="DL048" xml:space="preserve">
+    <value>Ya existe la combinación de usuario y password.</value>
+  </data>
+  <data name="DL049" xml:space="preserve">
+    <value>Error en el formato del e-mail.</value>
+  </data>
+  <data name="DL050" xml:space="preserve">
+    <value>Base de datos no disponible.</value>
+  </data>
+  <data name="DL051" xml:space="preserve">
+    <value>No fue posible crear la relación. Hay traslape de fechas entre las relaciones del mismo código con las que cuenta el empleado.</value>
+  </data>
+  <data name="DL052" xml:space="preserve">
+    <value>Los datos del puesto son incorrectos favor de validar.</value>
+  </data>
+  <data name="DL053" xml:space="preserve">
+    <value>El Puesto ya existe.</value>
+  </data>
+  <data name="DL054" xml:space="preserve">
+    <value>No fue posible crear el puesto. Las fechas coinciden con las de otro registro.</value>
+  </data>
+  <data name="DL055" xml:space="preserve">
+    <value>No se encontró puedo identificar un tipo de Recurso para el carrier de la Linea.</value>
+  </data>
+  <data name="DL056" xml:space="preserve">
+    <value>Los datos del Sitio TIM son incorrectos.</value>
+  </data>
+  <data name="DL057" xml:space="preserve">
+    <value>El Sitio TIM ya existe.</value>
+  </data>
+  <data name="DL058" xml:space="preserve">
+    <value>No fue posible crear el Sitio TIM, las fechs coinciden con las de otro registro.</value>
+  </data>
+  <data name="DL059" xml:space="preserve">
+    <value>Los datos de {0} son incorrectos, favor de validar.</value>
+  </data>
+  <data name="DL060" xml:space="preserve">
+    <value>[Ya existe {0}]</value>
+  </data>
+  <data name="DL061" xml:space="preserve">
+    <value>[No fue posible crear {0}. Las fechas coinciden con las de otro registro.]</value>
+  </data>
+  <data name="DL062" xml:space="preserve">
+    <value>[Los datos de {0} son incorrectos, favor de validar.]</value>
+  </data>
+  <data name="ExtensionPrivada" xml:space="preserve">
+    <value>Extensión privada</value>
+  </data>
+  <data name="LL001" xml:space="preserve">
+    <value>Ocurrió un error en la capa de Logic</value>
+    <comment>Mensaje Generico</comment>
+  </data>
+  <data name="LL002" xml:space="preserve">
+    <value>No se pudo realizar la acción.</value>
+  </data>
+  <data name="LL003" xml:space="preserve">
+    <value>Datos no válidos en el campo {0}.</value>
+  </data>
+  <data name="LL004" xml:space="preserve">
+    <value>La creación del nuevo cliente falló.</value>
+  </data>
+  <data name="LL005" xml:space="preserve">
+    <value>Inicia Creación de Cliente.</value>
+  </data>
+  <data name="LL006" xml:space="preserve">
+    <value>El Usuario y/o Password son incorrectos.</value>
+  </data>
+  <data name="LL007" xml:space="preserve">
+    <value>Elemento duplicado.</value>
+  </data>
+  <data name="LL008" xml:space="preserve">
+    <value>Ocurrió un error en la lectura del archivo Excel.</value>
+  </data>
+  <data name="LL009" xml:space="preserve">
+    <value>No es posible. Categoría y/o Perfil Desactivados.</value>
+  </data>
+  <data name="LL010" xml:space="preserve">
+    <value>Las contraseñas no coinciden.</value>
+  </data>
+  <data name="LL011" xml:space="preserve">
+    <value>No se encontraron presupuestos activos.</value>
+  </data>
+  <data name="LL012" xml:space="preserve">
+    <value>No se encontró información en la hoja RH o Cod_Ext. La información en estas hojas es obligatoria.</value>
+  </data>
+  <data name="LL013" xml:space="preserve">
+    <value>Ocurrió un error al intentar crear el registro de la carga.</value>
+  </data>
+  <data name="LL014" xml:space="preserve">
+    <value>Ya existe un registro en historicos.</value>
+  </data>
+  <data name="LL015" xml:space="preserve">
+    <value>El proceso no puede continuar. Hay Sitios en el archivo que no estan en el sistema.</value>
+  </data>
+  <data name="LL016" xml:space="preserve">
+    <value>Ya existe un cliente con ese nombre de esquema en la base de datos.</value>
+  </data>
+  <data name="LL017" xml:space="preserve">
+    <value>Creación de cliente "{0}" {1}.</value>
+  </data>
+  <data name="LL018" xml:space="preserve">
+    <value>{0} proceso de creación de cliente "{1}", Usuario: {2}.</value>
+  </data>
+  <data name="LL019" xml:space="preserve">
+    <value>No fue posible crear la carga.</value>
+  </data>
+  <data name="LL020" xml:space="preserve">
+    <value>Se requiere el nombre de la vista.</value>
+  </data>
+  <data name="LL021" xml:space="preserve">
+    <value>No se ha creado una carga.</value>
+  </data>
+  <data name="LL022" xml:space="preserve">
+    <value>El formato del Archivo no es valido.</value>
+  </data>
+  <data name="LL023" xml:space="preserve">
+    <value>No se encontró el maestro.</value>
+  </data>
+  <data name="LL024" xml:space="preserve">
+    <value>La nómina ingresada ya existe. Nómina:{0}, Empleado: {1}</value>
+  </data>
+  <data name="LL025" xml:space="preserve">
+    <value>No fue posible crear el Empleado.</value>
+  </data>
+  <data name="LL026" xml:space="preserve">
+    <value>No fue posible crear la Relación del Empleado con el Centro de Costos. Se creo una inconsistencia. Empleado sin CenCos, Nómina:  {0}</value>
+  </data>
+  <data name="LL027" xml:space="preserve">
+    <value>No fue posible crear la extensión.</value>
+  </data>
+  <data name="LL028" xml:space="preserve">
+    <value>No fue posible crear la Relación de el Empleado con la Extensión.</value>
+  </data>
+  <data name="LL029" xml:space="preserve">
+    <value>La fecha fin de la relación solo se puede actalizar hacia un fecha anterior.</value>
+  </data>
+  <data name="LL030" xml:space="preserve">
+    <value>No fue posible generar una nomina para el empleado.</value>
+  </data>
+  <data name="LL031" xml:space="preserve">
+    <value>No fue posible crear el código de autorización.</value>
+  </data>
+  <data name="LL032" xml:space="preserve">
+    <value>No fue posible crear la Relación del Empleado con el Código de Autorización</value>
+  </data>
+  <data name="LL033" xml:space="preserve">
+    <value>No fue posible crear la Linea.</value>
+  </data>
+  <data name="LL034" xml:space="preserve">
+    <value>No fue posible crear la Relación del Empleado con la Linea</value>
+  </data>
+  <data name="LL035" xml:space="preserve">
+    <value>No fue posible eliminar la relación del empleado con el centro de costos.</value>
+  </data>
+  <data name="LL036" xml:space="preserve">
+    <value>No fue posible eliminar la relación inmediata anterior del empleado con el centro de costos.</value>
+  </data>
+  <data name="LL037" xml:space="preserve">
+    <value>No fue posible crear el Usuario.</value>
+  </data>
+  <data name="LL038" xml:space="preserve">
+    <value>La Fecha Inicio no puede ser más grande que la Fecha Fin.</value>
+  </data>
+  <data name="LL039" xml:space="preserve">
+    <value>El registro no cuenta con todos los campos requeridos.</value>
+  </data>
+  <data name="LL040" xml:space="preserve">
+    <value>El Centro de Costos no existe.</value>
+  </data>
+  <data name="LL041" xml:space="preserve">
+    <value>Registro duplicado en el archivo.</value>
+  </data>
+  <data name="LL042" xml:space="preserve">
+    <value>El tipo de empleado no existe.</value>
+  </data>
+  <data name="LL043" xml:space="preserve">
+    <value>No se encontró el empleado para crear la relación con el CC: {0}</value>
+  </data>
+  <data name="LL044" xml:space="preserve">
+    <value>La nómina del Jefe no existe.</value>
+  </data>
+  <data name="LL045" xml:space="preserve">
+    <value>No se encontro al empleado: {0}</value>
+  </data>
+  <data name="LL046" xml:space="preserve">
+    <value>El empleado ya cuenta con un usuario.</value>
+  </data>
+  <data name="LL047" xml:space="preserve">
+    <value>El registro no contiene información para el username</value>
+  </data>
+  <data name="LL048" xml:space="preserve">
+    <value>La clave de la carga es demasiado larga: {0}.</value>
+  </data>
+  <data name="LL049" xml:space="preserve">
+    <value>No se encontro el usuario.</value>
+  </data>
+  <data name="LL050" xml:space="preserve">
+    <value>La entrada en la columna de CrearUsuario no es valida.</value>
+  </data>
+  <data name="LL051" xml:space="preserve">
+    <value>El Sitio no existe.</value>
+  </data>
+  <data name="LL052" xml:space="preserve">
+    <value>El Cos no existe.</value>
+  </data>
+  <data name="LL053" xml:space="preserve">
+    <value>No se encontró el empleado para crear la relación con el Código.</value>
+  </data>
+  <data name="LL054" xml:space="preserve">
+    <value>No se encontró el código de autorización: {0}</value>
+  </data>
+  <data name="LL055" xml:space="preserve">
+    <value>El Código de Autorización ya existe.</value>
+  </data>
+  <data name="LL056" xml:space="preserve">
+    <value>Insertando registro de carga...</value>
+  </data>
+  <data name="LL057" xml:space="preserve">
+    <value>Vaciando datos del archivo...</value>
+  </data>
+  <data name="LL058" xml:space="preserve">
+    <value>Validando campos requeridos...</value>
+  </data>
+  <data name="LL059" xml:space="preserve">
+    <value>Validando y descartando nóminas sin Centro de Costos...</value>
+  </data>
+  <data name="LL060" xml:space="preserve">
+    <value>Validando y descartando nóminas duplicadas en el archivo...</value>
+  </data>
+  <data name="LL061" xml:space="preserve">
+    <value>Separando nóminas nuevas y nóminas que ya existen en base de datos...</value>
+  </data>
+  <data name="LL062" xml:space="preserve">
+    <value>Procesando registros nuevos...</value>
+  </data>
+  <data name="LL063" xml:space="preserve">
+    <value>Procesando registros existentes...</value>
+  </data>
+  <data name="LL064" xml:space="preserve">
+    <value>Asignando jefes...</value>
+  </data>
+  <data name="LL065" xml:space="preserve">
+    <value>Carga Finalizada.</value>
+  </data>
+  <data name="LL066" xml:space="preserve">
+    <value>Error en parametros de carga.</value>
+  </data>
+  <data name="LL067" xml:space="preserve">
+    <value>Validando y descartando códigos sin Sitio...</value>
+  </data>
+  <data name="LL068" xml:space="preserve">
+    <value>Validando y descartando códigos duplicados en el archivo...</value>
+  </data>
+  <data name="LL069" xml:space="preserve">
+    <value>Separando códigos nuevos y códigos que ya existen en base de datos...</value>
+  </data>
+  <data name="LL070" xml:space="preserve">
+    <value>Validando y descartando extensiones sin Sitio...</value>
+  </data>
+  <data name="LL071" xml:space="preserve">
+    <value>Validando y descartando extensiones duplicadas en el archivo...</value>
+  </data>
+  <data name="LL072" xml:space="preserve">
+    <value>Separando extensiones nuevas y extensiones que ya existen en base de datos...</value>
+  </data>
+  <data name="LL073" xml:space="preserve">
+    <value>No se encontró el empleado para crear la relación con la extensión.</value>
+  </data>
+  <data name="LL074" xml:space="preserve">
+    <value>La Extensión ya existe.</value>
+  </data>
+  <data name="LL075" xml:space="preserve">
+    <value>No fue posible restablecer todos los detallados.</value>
+  </data>
+  <data name="LL076" xml:space="preserve">
+    <value>Eliminando inconsistencias de usuarios...</value>
+  </data>
+  <data name="LL077" xml:space="preserve">
+    <value>No se encontraron centros de costos para el cliente seleccionado.</value>
+  </data>
+  <data name="LL078" xml:space="preserve">
+    <value>Base de datos no disponible.</value>
+  </data>
+  <data name="LL079" xml:space="preserve">
+    <value>Error al generar el Reporte.</value>
+  </data>
+  <data name="LL080" xml:space="preserve">
+    <value>Parametros de entrada no válidos.</value>
+  </data>
+  <data name="LL081" xml:space="preserve">
+    <value>No se subio correctamente toda la información en la tabla de {0}. Archivo: {1} - BD: {2}.</value>
+  </data>
+  <data name="LL082" xml:space="preserve">
+    <value>Error en alguno de los e-mail en el campo "{0}".</value>
+  </data>
+  <data name="LL083" xml:space="preserve">
+    <value>Ha ocurrido un error al procesar el registro del Empleado {0} con ID: {1}.</value>
+  </data>
+  <data name="LL084" xml:space="preserve">
+    <value>Comienza proceso de generación de archivos: {0} {1}.</value>
+  </data>
+  <data name="LL085" xml:space="preserve">
+    <value>Se ha finalizado el proceso de generación de archivos: {0} {1}.</value>
+  </data>
+  <data name="LL086" xml:space="preserve">
+    <value>Fallo Registro en Base de datos de Empleado: {0}.</value>
+  </data>
+  <data name="LL087" xml:space="preserve">
+    <value>Generando archivo de [iCodCatalogoEmple]: {0}  [Nombre]: {1}.</value>
+  </data>
+  <data name="LL088" xml:space="preserve">
+    <value>La nómina no existe: {0}.</value>
+  </data>
+  <data name="LL089" xml:space="preserve">
+    <value>No se encontró la extensión: {0}</value>
+  </data>
+  <data name="LL090" xml:space="preserve">
+    <value>El empleado se encuentra actualmente en el centro de costos especificado.</value>
+  </data>
+  <data name="LL091" xml:space="preserve">
+    <value>No fue posible crear o identificar el puesto del empleado.</value>
+  </data>
+  <data name="LL092" xml:space="preserve">
+    <value>No fue posible actualizar la totalidad de los datos.</value>
+  </data>
+  <data name="LL093" xml:space="preserve">
+    <value>No se encontró el empleado para crear la relación con la linea.</value>
+  </data>
+  <data name="LL094" xml:space="preserve">
+    <value>Error en alguno de los datos Opcionales del registro.</value>
+  </data>
+  <data name="LL095" xml:space="preserve">
+    <value>No se encontró la linea: {0}</value>
+  </data>
+  <data name="LL096" xml:space="preserve">
+    <value>No se permiten movimientos sobre el empleado "POR IDENTIFICAR" desde actualizaciones masivas.</value>
+  </data>
+  <data name="LL097" xml:space="preserve">
+    <value>La cuenta maestra no se encuentra activa para el carrier especificado o no existe.</value>
+  </data>
+  <data name="LL098" xml:space="preserve">
+    <value>El Tipo de Empleado especificado en la nómina: {0} no es valido.</value>
+  </data>
+  <data name="LL099" xml:space="preserve">
+    <value>El dato en el campo Organización para la nómina: {0} no es valido.</value>
+  </data>
+  <data name="LL100" xml:space="preserve">
+    <value>[Por lo menos debe haber una columna declarada como clave cargo para poder cargar valores a la base.]</value>
+  </data>
+  <data name="LL101" xml:space="preserve">
+    <value>[ERROR al mapear datos de columnas fijas (ELIMINAR CARGA) : Reviar el contenido de las columnas: Reg. {0}]</value>
+  </data>
+  <data name="LL102" xml:space="preserve">
+    <value>[Mensaje solamente informativo: El plan tarifario configurado en la linea {0} no corresponde a: {1}.]</value>
+  </data>
+  <data name="LL103" xml:space="preserve">
+    <value>[Mensaje solamente informativo: El plan tarifario [{0}] no existe en Keytia.]</value>
+  </data>
+  <data name="LL104" xml:space="preserve">
+    <value>[ADVERTENCIA: La línea {0} no existe activa y relacionada en el rango de vigencia de la fecha de publicación de la factura, o tiene mas de una relacion en el periodo. No se sube información de esta línea.]</value>
+  </data>
+  <data name="LL105" xml:space="preserve">
+    <value>ERROR: La línea {0} no existe activa y relacionada en el rango de vigencia de la fecha de publicación de la factura, o tiene mas de una relacion en el periodo.]</value>
+  </data>
+  <data name="LL106" xml:space="preserve">
+    <value>[Por lo menos debe haber una columna declarada como clave cargo para poder cargar valores a la base.]</value>
+  </data>
+  <data name="LL107" xml:space="preserve">
+    <value>[La columna: {0} no se encuentra en el archivo de detalle.]</value>
+  </data>
+  <data name="LL108" xml:space="preserve">
+    <value>[Los renglones de encabezado no coinciden con los esperados.]</value>
+  </data>
+  <data name="LL109" xml:space="preserve">
+    <value>ErrInesp</value>
+    <comment>Estatus de carga Error inesperado</comment>
+  </data>
+  <data name="LL110" xml:space="preserve">
+    <value>ErrGetSitioConf</value>
+    <comment>Estatus de carga Error en método GetSitioConf</comment>
+  </data>
+  <data name="M001" xml:space="preserve">
+    <value>------------------- Registros Nuevos en Factura: {0}</value>
+  </data>
+  <data name="M002" xml:space="preserve">
+    <value>Alta: {0} - {1} [{2}], Subcuenta: {3}</value>
+  </data>
+  <data name="M003" xml:space="preserve">
+    <value>------------------- Registros Baja en Factura: {0}</value>
+  </data>
+  <data name="M004" xml:space="preserve">
+    <value>Baja: {0} - {1} [{2}], Subcuenta: {3}</value>
+  </data>
+  <data name="M005" xml:space="preserve">
+    <value>------------------- Registros con cambio de Estatus en Factura: {0}</value>
+  </data>
+  <data name="M006" xml:space="preserve">
+    <value>UpDate Baja a Alta:  {0} - {1} [{2}], Subcuenta: {3}</value>
+  </data>
+  <data name="M007" xml:space="preserve">
+    <value>------------------- Registros con cambio de Cuenta Maestra en Factura: {0}</value>
+  </data>
+  <data name="M008" xml:space="preserve">
+    <value>UpDate de Cuenta - Subcuenta:  {0} - {1}</value>
+  </data>
+  <data name="NumeroPrivado" xml:space="preserve">
+    <value>Número privado</value>
+  </data>
+  <data name="TIM0001" xml:space="preserve">
+    <value>[La suma de los totales no cuadra, por lo tanto no se sube información a BD. Total Detalles: {0}, Total Facturado: {1}]</value>
+  </data>
+  <data name="TIM0002" xml:space="preserve">
+    <value>[No se especifico la cuenta maestra de la factura en la configuración de la carga.]</value>
+  </data>
+  <data name="TIM0003" xml:space="preserve">
+    <value>[Ya hay información en base de datos para las fechas y cuenta maestra que se esta seleccionando.]</value>
+  </data>
+  <data name="TIM0004" xml:space="preserve">
+    <value>[La carga no cuenta todos los archivos necesarios.]</value>
+  </data>
+  <data name="TIM0005" xml:space="preserve">
+    <value>[El nombre de los archivos no cuenta con la estructura esperada.]</value>
+  </data>
+  <data name="TIM0006" xml:space="preserve">
+    <value>[La cuenta maestra especificada no existe o no es la misma en los nombres de los archivos.]</value>
+  </data>
+  <data name="TIM0007" xml:space="preserve">
+    <value>[La fecha de la factura no tiene el formato correcto.]</value>
+  </data>
+  <data name="TIM0008" xml:space="preserve">
+    <value>[Los nombres de los archivos deben contener la misma información en cuanto a cuenta maestra y fecha factura.]</value>
+  </data>
+  <data name="TIM0009" xml:space="preserve">
+    <value>[Error en la cantidad o nombre de los archivos con respecto a lo configurado en la carga]</value>
+  </data>
+  <data name="TIM0010" xml:space="preserve">
+    <value>[Error inesperado en la lectura y vaciado de la información del archivo: {0}]</value>
+  </data>
+  <data name="TIM0011" xml:space="preserve">
+    <value>[La clave cargo: "{0}" existe más de una vez en la Base de datos como clave TIM. Solo puede existir una con la misma descripción.]</value>
+  </data>
+  <data name="TIM0012" xml:space="preserve">
+    <value>[La clave cargo: "{0}" no existe en Base de datos, tiene encendida la bandera "Baja para consolidado o no tiene un Tipo Destino definido.]</value>
+  </data>
+  <data name="TIM0013" xml:space="preserve">
+    <value>[Se encontró información de la cuenta: {0}]</value>
+  </data>
+  <data name="TIM0014" xml:space="preserve">
+    <value>[La fecha de corte de la factura no coincide con el DetalleFactura: Se encontró información de fecha de corte de: {0}]</value>
+  </data>
+  <data name="TIM0015" xml:space="preserve">
+    <value>[El sitio: "{0}" existe más de una vez en la base de datos. Solo puede existir uno con la misma descripción.]</value>
+  </data>
+  <data name="TIM0016" xml:space="preserve">
+    <value>[Creación de SitioTIM: {0}, Error: {1}]</value>
+  </data>
+  <data name="TIM0017" xml:space="preserve">
+    <value>[Nuevo SitioTIM: {0}]</value>
+  </data>
+  <data name="TIM0018" xml:space="preserve">
+    <value>[La Clave cargo "{0}" no tiene un Tipo Destino especificado.]</value>
+  </data>
+  <data name="TIM0019" xml:space="preserve">
+    <value>[La Cuenta Maestra "{0}" no esta dada de alta en la base de datos.]</value>
+  </data>
+  <data name="TIM0020" xml:space="preserve">
+    <value>[El Concepto: {0} que se esta cobrando en la factura no existe como Clave Cargo]</value>
+  </data>
+  <data name="TIM0021" xml:space="preserve">
+    <value>[Error al generar inventario : {0} ]</value>
+  </data>
+  <data name="TIM0022" xml:space="preserve">
+    <value>[Ya hay información en base de datos para la fecha seleccionada.]</value>
+  </data>
+  <data name="TIM0023" xml:space="preserve">
+    <value>[Error al vaciar los datos. En el registro: {0}]</value>
+  </data>
+  <data name="TIM0024" xml:space="preserve">
+    <value>[Error en Carga. Carga no Identificada.]</value>
+  </data>
+  <data name="TIM0025" xml:space="preserve">
+    <value>[El Sitio: "{0}" no existe en la Base de datos.]</value>
+  </data>
+  <data name="TIM0026" xml:space="preserve">
+    <value>[No se especifico el carruer de la factura en la configuración de la carga.]</value>
+  </data>
+  <data name="TIM0027" xml:space="preserve">
+    <value>[El nombre de los archivos no cuenta con la estructura esperada. Ej: ClaveCarrier_NúmeroDeCuenta_FacturaXML_201601.xml ]</value>
+  </data>
+  <data name="TIM0028" xml:space="preserve">
+    <value>[La cuenta maestra especificada no existe o no pertenece al carrier especificado.]</value>
+  </data>
+  <data name="TIM0029" xml:space="preserve">
+    <value>[El mes y año configurados en la carga son diferentes al mes y año en el nombre del archivo.]</value>
+  </data>
+  <data name="TIM0030" xml:space="preserve">
+    <value>[Error al insertar en la base de datos.]</value>
+  </data>
+  <data name="TIM0031" xml:space="preserve">
+    <value>[El proceso actual no soporta el carrier configurado.]</value>
+  </data>
+  <data name="TIM0032" xml:space="preserve">
+    <value>[La clave cargo: {0} existe en Base de datos pero no existe en los archivos. Encender la bandera "Baja para consolidado".]</value>
+  </data>
+  <data name="TIM0033" xml:space="preserve">
+    <value>[No se encontro fecha corte de la factura correspondiente al actual detalle.]</value>
+  </data>
+  <data name="TIM0034" xml:space="preserve">
+    <value>[No se encontro un tipo de cambio para la moneda Global en las en las fechas de la factura.]</value>
+  </data>
+  <data name="TIM0035" xml:space="preserve">
+    <value>[Ocurrio un error al momento de generar el inventario de enlaces.]</value>
+  </data>
+  <data name="TIM0036" xml:space="preserve">
+    <value>[Los Siguientes importes no tienen una equivalencia en el Historico de RelacionImporte {0}]</value>
+  </data>
+  <data name="TIM0037" xml:space="preserve">
+    <value>[El registro con CuentaServicio: {0}, Sitio: {1} y Carrier: {2} no corresponde al catalogo de Cuentas de Servicio ]</value>
+  </data>
+</root>
